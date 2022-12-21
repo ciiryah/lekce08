@@ -8,3 +8,29 @@ body {
 
 
 /* ---------------- */
+
+.foto img {
+    width: 100%;
+    border: 3px solid red;
+    transition: 0.2s;
+    display: block;
+ 
+}
+
+.foto {
+    position: relative;
+    overflow: hidden;
+}
+
+.foto:hover .popisek{
+    transform: translateY(-100%);
+}
+
+.popisek {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;  
+    transition: 0.3s;
+    position: absolute;
+}
